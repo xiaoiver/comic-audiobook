@@ -11,9 +11,18 @@
 | [skills/comic-audiobook](skills/comic-audiobook/SKILL.md) | 可安装的通用技能，包含制作规则、参考资料与通用脚本 |
 | [scripts](scripts) | 当前样片的生成、混音、视频渲染和识别实验脚本 |
 | [examples/prompts](examples/prompts) | 样片的角色试音、音效和最终场景提示词 |
+| [examples/batman-killing-joke](examples/batman-killing-joke) | 漫画原稿、最终成片分镜图、60秒视频和字幕 |
 | [AUDIO_WORKFLOW.md](AUDIO_WORKFLOW.md) | 本项目的流程约定与实际反馈记录 |
 
-漫画原稿、裁切图片、角色音频、生成音视频、响应数据、API Key、临时依赖和模型文件保留在本地，不进入仓库。`input/`、`output/`、`tmp/`已加入忽略规则。示例提示词中的角色与剧情仅用于记录这次制作案例；制作新漫画时重新阅读原作和选角。
+经用户选择的漫画原稿、分镜图与最终视频收录在示例目录。其他裁切图片、角色音频、中间版本、响应数据、API Key、临时依赖和模型文件保留在本地。`input/`、`output/`、`tmp/`仍在忽略规则中，仅对指定示例媒体放行。制作新漫画时重新阅读原作和选角。
+
+## 完整示例
+
+[![最终60秒成片的分镜图](examples/batman-killing-joke/storyboard.jpg)](examples/batman-killing-joke/final.mp4)
+
+[查看/下载最终视频](examples/batman-killing-joke/final.mp4) · [漫画原稿](examples/batman-killing-joke/source.pdf) · [中文字幕](examples/batman-killing-joke/final.zh.srt)
+
+采用第一段音效增强版与第二段末句怒喝版。分镜图直接从这一版最终视频抽帧，具体镜头时间见[示例说明](examples/batman-killing-joke/README.md)。
 
 ## 使用技能
 
@@ -58,7 +67,7 @@ python skills/comic-audiobook/scripts/render_scene.py \
 
 时间线结构及混音建议见[视频制作说明](skills/comic-audiobook/references/video-and-delivery.md)。通用渲染器按真实WAV时长渲染，支持多画格、轻微推镜、中文字幕及逐字高亮。字体路径在项目时间线中配置。
 
-根目录`scripts/`中的渲染和混音脚本保留了这次样片的布局、文件名和部分macOS字体约定，需要本地生成的`output/`素材才能重做该样片，不是新漫画的通用入口。可通过`COMIC_SOURCE_PDF`环境变量设置原漫画路径用于记录来源。完整的画面与音频样片不随Git仓库分发。
+根目录`scripts/`中的渲染和混音脚本保留了这次样片的布局、文件名和部分macOS字体约定，需要本地生成的`output/`中间素材才能完整重做该样片，不是新漫画的通用入口。可通过`COMIC_SOURCE_PDF`环境变量设置原漫画路径用于记录来源。最终样片可在示例目录查看。
 
 ## 重要经验
 

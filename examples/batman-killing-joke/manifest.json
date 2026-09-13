@@ -1,0 +1,155 @@
+{
+  "version": "cinematic-v2 + scene-02-anger-v4",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 24,
+  "nominal_duration_seconds": 60,
+  "files": {
+    "storyboard.jpg": {
+      "bytes": 671003,
+      "sha256": "3b5e49ae5713c9368acb699f970bd17ef7b3683b76d7055f2b74480b8b8b0eb5"
+    },
+    "source.pdf": {
+      "bytes": 23127478,
+      "sha256": "f502206eff4d061a808a79a84aefb72f0e08825d766ade24528a619e89696d87"
+    },
+    "final.mp4": {
+      "bytes": 10174891,
+      "sha256": "cc79b5f2faf7d1a18448f8e28850b8aacfafd81652e46f7901f382cce28fbeff"
+    },
+    "final.zh.srt": {
+      "bytes": 1251,
+      "sha256": "da937297c29e2a967f37783e3d0ed4d1759060a088d9951e293b455163eed873"
+    }
+  },
+  "storyboard_shots": [
+    {
+      "start": 0,
+      "end": 1.6,
+      "label": "雨落积水",
+      "sample": 0.8
+    },
+    {
+      "start": 1.6,
+      "end": 3.55,
+      "label": "阿卡姆门前",
+      "sample": 2.575
+    },
+    {
+      "start": 3.55,
+      "end": 5.85,
+      "label": "走廊与钥匙",
+      "sample": 4.7
+    },
+    {
+      "start": 5.85,
+      "end": 9.5,
+      "label": "进入牌桌房间",
+      "sample": 7.675
+    },
+    {
+      "start": 9.5,
+      "end": 13.3,
+      "label": "我来谈谈",
+      "sample": 11.4
+    },
+    {
+      "start": 13.3,
+      "end": 14.0,
+      "label": "纸牌回应",
+      "sample": 13.65
+    },
+    {
+      "start": 14.0,
+      "end": 17.5,
+      "label": "你和我",
+      "sample": 15.75
+    },
+    {
+      "start": 17.5,
+      "end": 20.05,
+      "label": "沉默的对面",
+      "sample": 18.775
+    },
+    {
+      "start": 20.05,
+      "end": 23.65,
+      "label": "最后的问题",
+      "sample": 21.85
+    },
+    {
+      "start": 23.65,
+      "end": 26.6,
+      "label": "没有回答",
+      "sample": 25.125
+    },
+    {
+      "start": 26.6,
+      "end": 30,
+      "label": "纸牌落桌",
+      "sample": 28.3
+    },
+    {
+      "start": 30,
+      "end": 34.04,
+      "label": "延续隔桌谈话",
+      "sample": 32.02
+    },
+    {
+      "start": 34.04,
+      "end": 36.73,
+      "label": "隔着栏杆观察两人",
+      "sample": 35.385
+    },
+    {
+      "start": 36.73,
+      "end": 41.57,
+      "label": "认真劝说",
+      "sample": 39.15
+    },
+    {
+      "start": 41.57,
+      "end": 44.99,
+      "label": "语气转硬",
+      "sample": 43.28
+    },
+    {
+      "start": 44.99,
+      "end": 45.64,
+      "label": "抓住手腕",
+      "sample": 45.315
+    },
+    {
+      "start": 45.64,
+      "end": 49.19,
+      "label": "手套上的白色颜料",
+      "sample": 47.415
+    },
+    {
+      "start": 49.19,
+      "end": 50.48,
+      "label": "起身靠近对方",
+      "sample": 49.835
+    },
+    {
+      "start": 50.48,
+      "end": 53.725,
+      "label": "触碰脸上的化妆",
+      "sample": 52.102
+    },
+    {
+      "start": 53.725,
+      "end": 56.94,
+      "label": "替身惊慌抗议",
+      "sample": 55.332
+    },
+    {
+      "start": 56.94,
+      "end": 60,
+      "label": "近距离逼问",
+      "sample": 58.47
+    }
+  ]
+}

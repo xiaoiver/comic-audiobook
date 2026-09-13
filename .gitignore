@@ -19,6 +19,11 @@
 *.jpeg
 *.webp
 
+# Explicitly approved showcase assets
+!/examples/batman-killing-joke/source.pdf
+!/examples/batman-killing-joke/storyboard.jpg
+!/examples/batman-killing-joke/final.mp4
+
 # Python and editor metadata
 __pycache__/
 *.py[cod]
