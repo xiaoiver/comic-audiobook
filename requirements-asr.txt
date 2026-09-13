@@ -1,0 +1,2 @@
+# Optional independent local transcription; downloads model weights on first use.
+faster-whisper>=1.2,<2

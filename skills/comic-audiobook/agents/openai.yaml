@@ -1,0 +1,4 @@
+interface:
+  display_name: "漫画有声书"
+  short_description: "将漫画制作成角色音色一致、富有情绪和音效的有声书视频"
+  default_prompt: "使用 $comic-audiobook，把我提供的漫画制作成有声书视频，先完成一段适合确认风格的样片。"

@@ -1,0 +1,30 @@
+# Local sources, generated media, credentials, downloaded models and runtimes
+/input/
+/output/
+/tmp/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.mp3
+*.wav
+*.m4a
+*.aac
+*.mp4
+*.mov
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# Python and editor metadata
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.DS_Store
+.idea/
+.vscode/
